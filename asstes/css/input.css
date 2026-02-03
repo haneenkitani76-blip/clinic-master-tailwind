@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme{
+    --font-primary: "Sansita", sans-serif;
+    --color-primary:#227675;
+    --color-secondary:#6f9a37;
+}
+ 
+ .nav-link{
+    @apply text-[#FFFFFF]  hover:text-[var(--color-primary)] text-[18px]
+ }
+
+ 
+  .btn-primary {
+    @apply
+      bg-[var(--color-primary)]
+      text-white
+      px-6
+      py-2
+      rounded-full
+      text-sm
+      font-medium
+      transition
+      duration-300
+      cursor-pointer
+    hover:opacity-90;
+      
+  }
+
