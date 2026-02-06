@@ -6,6 +6,9 @@
     --color-secondary:#6f9a37;
 }
  
+.text-primary{
+  @apply text-[var(--color-primary)];
+}
  .nav-link{
     @apply text-[#FFFFFF]  hover:text-[var(--color-primary)] text-[18px]
  }
@@ -20,8 +23,7 @@
       rounded-full
       text-sm
       font-medium
-      transition
-      duration-300
+      transition duration-300
       cursor-pointer
     hover:opacity-90;
       
