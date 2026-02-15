@@ -26,5 +26,22 @@
   cursor-pointer
  }
 
+ .footer-list li{
+  @apply 
+  flex items-center gap-2 text-white/70
+  font-semibold;
+}
+
+.footer-list li::before{
+  content:"→";
+  @apply
+   text-white
+   font-semibold;
+}
+.Titles-footer{
+@apply
+text-white text-2xl
+}
+
 
  
