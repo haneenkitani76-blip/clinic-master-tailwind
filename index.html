@@ -65,8 +65,42 @@
             </ul>
           </li>
 
-          <li><a href="#" class="nav-link ">Services</a></li>
-          <li><a href="#" class="nav-link ">Blogs</a></li>
+          <li class="relative group">
+            <a href="#" class="nav-link flex items-center gap-2">Services
+            <span> <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 text-gray-600" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg></span>
+            </a>
+            <ul class="absolute left-0 top-full pt-2 w-44
+                     bg-white shadow-lg rounded
+                     opacity-0 invisible
+                     group-hover:opacity-100
+                     group-hover:visible
+                     transition duration-200 "> 
+              <li><a href="services/services.html "class="block px-4 py-2 hover:bg-gray-100">services</a></li>
+              <li><a href="services/services details.html "class="block px-4 py-2 hover:bg-gray-100">services details</a></li>
+             
+            </ul>
+          </a></li>
+          <li class="relative group">
+            <a href="#" class="nav-link flex items-center gap-2 ">Blogs
+             <span> <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 text-gray-600" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg></span>
+            </a>
+            <ul class="absolute left-0 top-full pt-2 w-44
+                     bg-white shadow-lg rounded
+                     opacity-0 invisible
+                     group-hover:opacity-100
+                     group-hover:visible
+                     transition duration-200 "> 
+              <li><a href="bloges/blog-grid.html "class="block px-4 py-2 hover:bg-gray-100">Blog Grid</a></li>
+              <li><a href="bloges/blog-list-sidebar.html "class="block px-4 py-2 hover:bg-gray-100">Blog List Sidebar</a></li>
+              <li><a href="bloges/blog-details.html "class="block px-4 py-2 hover:bg-gray-100">Blog Details</a></li>
+            </ul>
+          </li>
           <li><a href="#" class="nav-link ">Contact Us</a></li>
         </ul>
       </nav>
