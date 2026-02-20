@@ -44,4 +44,27 @@ text-white text-2xl
 }
 
 
- 
+.Category{
+@apply
+flex 
+justify-between
+}
+
+.Category-item{
+  @apply
+  font-semibold
+  text-gray-900
+}
+
+ .Category-item::before{
+  content:"→";
+  @apply
+  text-primary 
+  mr-1
+  font-semibold
+ }
+ .Category-number{
+  @apply
+  text-primary
+  font-semibold
+ }
