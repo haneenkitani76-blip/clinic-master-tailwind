@@ -7,11 +7,9 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-500: oklch(63.7% 0.237 25.331);
     --color-amber-50: oklch(98.7% 0.022 95.277);
     --color-teal-700: oklch(51.1% 0.096 186.391);
     --color-blue-200: oklch(88.2% 0.059 254.128);
-    --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-gray-50: oklch(98.5% 0.002 247.839);
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-200: oklch(92.8% 0.006 264.531);
@@ -239,47 +237,17 @@
   .-right-5 {
     right: calc(var(--spacing) * -5);
   }
-  .-bottom-0 {
-    bottom: calc(var(--spacing) * -0);
-  }
-  .-bottom-10 {
-    bottom: calc(var(--spacing) * -10);
-  }
-  .-bottom-20 {
-    bottom: calc(var(--spacing) * -20);
-  }
   .-bottom-30 {
     bottom: calc(var(--spacing) * -30);
   }
-  .-bottom-70 {
-    bottom: calc(var(--spacing) * -70);
-  }
-  .-bottom-80 {
-    bottom: calc(var(--spacing) * -80);
-  }
-  .-bottom-90 {
-    bottom: calc(var(--spacing) * -90);
-  }
-  .bottom-2 {
-    bottom: calc(var(--spacing) * 2);
-  }
   .bottom-6 {
     bottom: calc(var(--spacing) * 6);
-  }
-  .bottom-10 {
-    bottom: calc(var(--spacing) * 10);
-  }
-  .bottom-20 {
-    bottom: calc(var(--spacing) * 20);
   }
   .bottom-25 {
     bottom: calc(var(--spacing) * 25);
   }
   .bottom-40 {
     bottom: calc(var(--spacing) * 40);
-  }
-  .bottom-90 {
-    bottom: calc(var(--spacing) * 90);
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
@@ -344,30 +312,6 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
-  .mt-\[-10\] {
-    margin-top: -10;
-  }
-  .mt-\[-16\] {
-    margin-top: -16;
-  }
-  .mt-\[-20\] {
-    margin-top: -20;
-  }
-  .mt-\[-60\] {
-    margin-top: -60;
-  }
-  .mt-\[-120\] {
-    margin-top: -120;
-  }
-  .mt-\[10\] {
-    margin-top: 10;
-  }
-  .mt-\[20\] {
-    margin-top: 20;
-  }
-  .mb-2 {
-    margin-bottom: calc(var(--spacing) * 2);
-  }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
   }
@@ -391,9 +335,6 @@
   }
   .mb-12 {
     margin-bottom: calc(var(--spacing) * 12);
-  }
-  .ml-6 {
-    margin-left: calc(var(--spacing) * 6);
   }
   .block {
     display: block;
@@ -437,9 +378,6 @@
   .h-16 {
     height: calc(var(--spacing) * 16);
   }
-  .h-32 {
-    height: calc(var(--spacing) * 32);
-  }
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
@@ -457,9 +395,6 @@
   }
   .h-screen {
     height: 100vh;
-  }
-  .w-0 {
-    width: calc(var(--spacing) * 0);
   }
   .w-3 {
     width: calc(var(--spacing) * 3);
@@ -487,9 +422,6 @@
   }
   .w-\[165px\] {
     width: 165px;
-  }
-  .w-\[420\] {
-    width: 420;
   }
   .w-\[420px\] {
     width: 420px;
@@ -710,6 +642,9 @@
   }
   .p-8 {
     padding: calc(var(--spacing) * 8);
+  }
+  .p-16 {
+    padding: calc(var(--spacing) * 16);
   }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
@@ -965,6 +900,11 @@
   .md\:flex {
     @media (width >= 48rem) {
       display: flex;
+    }
+  }
+  .md\:grid {
+    @media (width >= 48rem) {
+      display: grid;
     }
   }
   .md\:hidden {
